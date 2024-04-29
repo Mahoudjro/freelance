@@ -1,0 +1,641 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-family: oswald;
+
+}
+header{
+	 position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 20;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    
+    padding: 30px 8%;
+    height: 50px;
+    box-shadow: 0 0 3px 0 rgba(0,0,1,1);
+
+
+}
+.z{
+	color: orange;
+	font-size: 3em;
+	font-weight: bold;
+
+}
+
+em{
+	color: blue;
+	font-size: 1em;
+	font-weight: bold;
+
+}
+
+.header{
+	list-style: none;
+	display: flex;
+	color: blue;
+
+
+
+
+}
+.x{
+	margin-left: 800px;
+	margin-top: 10px;
+	padding: 5px;
+	margin-right: 45px;
+
+}
+.y{
+	margin-top: 10px;
+	padding: 5px;
+	cursor: pointer;
+	flex-direction: column ;
+	
+}
+.img{
+	filter: invert(50%);
+	height: 30px;
+	padding: 2px;
+
+}
+.img1{
+	filter: invert(100%);
+	height: 30px;
+	
+
+}
+.img2{
+	
+	height: 30px;
+
+
+}
+
+.img:hover{
+	height: 35px;
+	filter: invert(100%);
+
+}
+.menu{
+	margin-top: 5%;
+	height: 72.5vh;
+	width: 50%;
+	padding: 50px;
+	background-color: whitesmoke;
+	color: whitesmoke;
+	transform: translate(-700px);
+	transition: 0.5s;
+	align-items: center;
+
+
+
+}
+.menu li{
+	list-style: none;
+	border-bottom: 1px solid blue;
+	padding: 25px 0;
+	text-align: center;
+
+}
+.showmenu{
+	transform: translateX(0);
+
+}
+.menu li:last-child{
+	border-bottom: none;
+
+
+}
+.menu li a {
+	color: orange;
+	text-decoration: none;
+	font-size: 20px;
+	transition: font-weight 0.2s;
+	align-items: center;
+
+
+
+}
+.menu li:first-child a{
+	font-weight: bold;
+	font-size: 22px;
+
+} 
+
+.menu li a:hover{
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+@media screen and (min-width:1000px){
+   .menu{
+   	width: 500px;
+
+   }
+}
+@media screen and (max-width:600px){
+  .menu li a {
+  	font-size: 16px;
+
+  }
+
+}
+
+
+.a{
+	margin-top: -450px;
+
+	padding: 30px;
+	background-color: ghostwhite;
+	text-align: center;
+	font-size: 2em;
+
+
+}
+.b{
+	color: skyblue;
+
+}
+.button{
+	color: blue;
+
+	background-color: transparent;
+	border-radius: 15px 15px 15px 15px;
+	padding: 15px;
+	font-size: 0.6em;
+	
+	border-color: skyblue;
+
+
+
+}
+.button:hover {
+	color: whitesmoke;
+	background-color: lightblue;
+
+
+}
+.button1{
+	
+	width: 50%;
+	color: burlywood;
+
+	background-color: transparent;
+	
+	padding: 10px;
+	font-size: 1em;
+	border-color: ghostwhite;
+	margin-left: 30%;
+	border-radius: 25%;
+
+
+
+
+}
+.button1:hover {
+	color: white;
+	background-color: lightblue;
+	font-size: 1.2em;
+
+
+}
+/* Choix d'inscription */
+.choix{
+	
+	
+	width: 100%;
+	
+	background-color: orange;
+	
+	
+	transform: translate(0);
+	transition: 0.5s;
+	align-items: center;
+
+
+
+}
+.choix section {
+	list-style: none;
+	border-bottom: 4px solid white;
+	padding: 60px 0;
+	text-align: center;
+
+
+
+
+}
+.choix section:last-child{
+	border-bottom: none;
+
+
+}
+.title{
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+
+
+
+}
+.content{
+	font-size: 1.5em;
+	color: whitesmoke;
+
+
+}
+.bouton{
+	color: green;
+
+	background-color: transparent;
+	border-radius: 25%;
+	padding: 15px;
+	font-size: 1em;
+	border-color: green;
+	
+
+
+}
+.bouton:hover{
+	color: whitesmoke;
+	background-color: limegreen;
+
+
+}
+.m {
+	margin-left: -1100px;
+
+}
+.image{
+	height: 80px;
+	
+
+
+}
+
+
+/* FORMULAIRE D'inscription */
+
+
+.e{
+	background-color: whitesmoke;
+
+
+
+}
+label{
+	font-size: 20px;
+
+}
+legend {
+	font-size: 30px;
+	font-weight: bold;
+
+
+}
+
+.formulaire {
+    margin-top: 5%;
+    background-color: orange;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 25%;
+    height: 70%;
+    width: 50%;
+    padding: 50px;
+  
+
+    
+}
+input{
+	margin-bottom: 10px;
+	border: none;
+	width: 96%;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: -2px;
+	padding: 10px;
+
+
+}
+.next{
+	padding: 10px;
+	border-radius: 8px 8px 8px 8px;
+	color: whitesmoke;
+
+	background-color: limegreen;
+	
+	padding: 15px;
+	font-size: 1em;
+	border: none;
+	
+	width: 25%;
+	
+
+}
+.prev{
+	padding: 10px;
+	border-radius: 8px 8px 8px 8px;
+	color: whitesmoke;
+
+	background-color: darkred;
+	
+	padding: 15px;
+	font-size: 1em;
+	border: none;
+	
+	width: 25%;
+	margin-right: 40%;
+
+}
+.f{
+	padding: 10px;
+	border-radius: 8px 8px 8px 8px;
+	color: whitesmoke;
+
+	background-color: green;
+	
+	padding: 15px;
+	font-size: 1em;
+	border: none;
+	
+	width: 25%;
+}
+
+fieldset {
+    display: none;
+}
+
+fieldset:first-child {
+    display: block;
+}
+
+
+
+/*Pour la page Modèle*/
+
+
+
+.Modèle{
+	padding: 10px;
+	align-items: center;
+	
+	background-color: lightblue;
+	padding-top: 3%;
+
+
+
+}
+.n{
+	font-size: 2em;
+	margin-left: 3%;
+	font-weight: bold;
+	
+
+
+}
+.v{
+	padding: 10px;
+	border-radius: 8px 8px 8px 8px;
+	width: 20%;
+	font-size: 20px;
+	
+	color: whitesmoke;
+	background-color: blue;
+	
+	border: none;
+	
+	height: auto;
+	
+	
+
+}
+.v:hover{
+	background-color: orange;
+	color: black;
+	
+	cursor: pointer;
+	
+
+}
+
+
+/* Choix Connexion */
+
+.conn-header{
+	 position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 20;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    
+    padding: 30px 8%;
+    height: 50px;
+   
+
+
+}
+.img3{
+	
+	height: 45px;
+
+
+}
+.headerc{
+	list-style: none;
+	display: flex;
+	color: white;
+
+
+
+
+}
+.m3{
+	margin-left: -50px;
+	margin-top: 5px;
+	padding: 5px;
+	margin-right: 1000px;
+
+
+}
+.m4{
+	margin-top: 5px;
+	padding: 5px;
+	cursor: pointer;
+	flex-direction: column ;
+
+
+}
+.choixcon{
+	margin-top: 100px;
+
+	padding: 30px;
+	background-color: ghostwhite;
+	text-align: center;
+	font-size: 1em;
+
+
+}
+.choixcon section {
+	list-style: none;
+	border-bottom: 4px solid blue;
+	padding: 60px 0;
+	text-align: center;
+
+
+
+
+}
+.choixcon section:last-child{
+	border-bottom: none;
+
+
+}
+.content1{
+	font-size: 1.3em;
+	color: orange;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Formulaire Connexion */
+.e{
+	margin: 0;
+	padding: 0;
+
+
+}
+.ee{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(27deg,  whitesmoke 50%, blue 50% );
+	
+
+
+}
+
+
+
+.formulaire1 {
+   width: 350px;
+   height: 420px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   background-color: darkblue;
+   transform: translate(-50%, -50%);
+   background-image: linear-gradient(27deg, blue 50%, whitesmoke 50% );
+
+}
+h2 {
+	text-align: center;
+	color: darkblue;
+	text-transform: uppercase;
+	font-size: 2em;
+	word-spacing: 10px;
+	margin-top: -50px;
+	margin-bottom: 50px;
+	text-shadow: -2px 2px 1px lightblue;
+
+
+}
+#pro{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: relative;
+	top: -60px;
+	left: calc((350px - 120px) / 2);
+
+}
+
+.formulaire1 input{
+   border: 0;
+   margin: 20px auto;
+   text-align: center;
+   border: 2px solid transparent;
+   padding: 14px 10px;
+   width: 220px;
+   display: block;
+   outline: none;
+   color: darkblue;
+   font-family: Oswald;
+   background: none;
+   border-radius: 24px;
+   transition: 0.25s;
+   font-size: 1.3em;
+
+   
+}
+.formulaire1 input:focus{
+	width: 280px;
+	border-color: darkblue;
+	 font-family: Oswald;
+
+}
+::placeholder{
+	letter-spacing: 2px;
+	color: darkblue;
+	 font-family: Oswald;
+
+}
+
+.p{
+   border: 0;
+   background-color: transparent;
+   margin: 20px auto;
+   text-align: center;
+   border: 2px solid whitesmoke;
+   padding: 14px 40px;
+   outline: none;
+   color: whitesmoke;
+   border-radius: 24px;
+   transition: 0.25s;
+   cursor: pointer;
+   font-family: oswald;
+   margin-left: 30%;
+   font-size: 1em;
+}
+
+
+.p:hover{
+	color: darkblue;
+	background-color: whitesmoke;
+
+
+}
